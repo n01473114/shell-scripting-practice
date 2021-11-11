@@ -29,9 +29,9 @@ while [[ $quit = "n" ]]
 				let total="$value1"+"$value2"
 				echo
 				echo -e "\e[7mAnswer:\e[0m"
-            	echo $total
-            	echo $separator
-            	echo
+				echo $total
+				echo $separator
+				echo
 			;;
 			2)
 				echo "Please provide a first value:"
@@ -49,11 +49,11 @@ while [[ $quit = "n" ]]
 				echo "Are you sure you want to exit? [Y/N]"
 				read quit
 				echo $separator
-            	echo
+				echo
 			;;
 			*)
 				invalid="\e[33m$ops\e[0m\e[1;31m"
-            	echo -e "\e[1;31m *** $invalid is not a valid option *** \e[0m" && echo
+				echo -e "\e[1;31m *** $invalid is not a valid option *** \e[0m" && echo
 			;;
 		esac
 done
