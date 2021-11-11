@@ -9,7 +9,7 @@ echo "HELLO! WELCOME TO CALCAPP" # When the program is first loaded, display a g
 echo
 
 # When the operation is complete, redisplay the menu.
-while [[ $quit = "n" ]]
+until [[ $quit = "y" ]]
 	do
 		echo "Please select one of the following actions:" # Then, display a menu that outlines the possible operations:
 		echo [1] Add # Add
