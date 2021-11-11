@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# When the program is first loaded, display a greeting to the user.
+echo "HELLO! WELCOME TO CALCAPP" # When the program is first loaded, display a greeting to the user.
 # Then, display a menu that outlines the possible operations:
   # Add
   # Subtract
